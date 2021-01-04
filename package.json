@@ -1,5 +1,6 @@
 {
   "name": "monst-used-words",
+  "title": "Monst Used Words",
   "version": "0.1.0",
   "private": true,
   "scripts": {
