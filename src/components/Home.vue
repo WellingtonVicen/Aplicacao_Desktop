@@ -2,8 +2,8 @@
   <v-container fluid>
     <div >
         <div class="pills">
-            <Pill  v-for="word in groupedWords" :key="word.name"
-              :name="word.name" :amount="word.amount" />
+            <Pill v-for="word in groupedWords" :key="word.name"
+            :name="word.name" :amount="word.amount" />
         </div>
     </div>
   </v-container>
@@ -19,7 +19,7 @@ export default {
           groupedWords: [
               { name: 'i', amount: 1234 }, 
               { name: 'you', amount: 900 }, 
-              { name: 'he', amount: 853}, 
+              { name: 'he', amount: 853},  
           ]
       }
   }
@@ -27,5 +27,9 @@ export default {
 </script>
 
 <style>
-
+.pills {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
 </style>

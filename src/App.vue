@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark>
+    <v-app-bar app color="danger" dark>
       <v-toolbar-title>Monst Used Words</v-toolbar-title>
     </v-app-bar>
 
