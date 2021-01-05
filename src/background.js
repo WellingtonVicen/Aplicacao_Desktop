@@ -8,6 +8,7 @@ import {
 import {
   createProtocol
 } from 'vue-cli-plugin-electron-builder/lib'
+import './backend'
 import installExtension, {
   VUEJS_DEVTOOLS
 } from 'electron-devtools-installer'
